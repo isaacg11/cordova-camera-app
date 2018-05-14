@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <title>My Location</title>
+    </head>
+    <body>
+        <h1>Camera App</h1>
+        <button onClick="takePicture()">Take Picture</button>
+        <img id="pictureOutput" height="100" width="100" />
+        <p id="coordsOutput"></p>
+
+        <!-- app scripts -->
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCuURGByZa_CUwSfefSAoyv4a9gBUa01Go"></script>
+    </body>
+</html>
